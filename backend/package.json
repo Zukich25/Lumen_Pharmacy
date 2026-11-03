@@ -1,0 +1,15 @@
+{
+  "name": "lumen-pharmacy-backend",
+  "version": "1.0.0",
+  "description": "Lumen Pharmacy business analytics API",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node --watch src/server.js",
+    "seed": "node src/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "sql.js": "^1.12.0"
+  }
+}
